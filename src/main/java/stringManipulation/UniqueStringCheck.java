@@ -13,7 +13,6 @@ public class UniqueStringCheck {
 	 * Checks to see if character is added to set, if false then string is not unique
 	 */
 	
-
 	public boolean isUnique(String s) {
 		
 		int length = s.length();
