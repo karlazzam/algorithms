@@ -54,6 +54,13 @@ public class FindUniqueElement {
 	
 	public int uniqueElementSolutionTwo(int[] arr) {
 		
+		if(arr.length == 1) {
+			return arr[0];
+		}
+		else if(arr.length == 0) {
+			return 0;
+		}
+			
 		int result = 0;
 		
 		for(Integer element : arr) {
