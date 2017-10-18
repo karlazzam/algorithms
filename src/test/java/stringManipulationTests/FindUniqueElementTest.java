@@ -1,12 +1,8 @@
 package stringManipulationTests;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
-import junit.framework.Assert;
 import stringManipulation.FindUniqueElement;
-import stringManipulation.UniqueStringCheck;
 
 public class FindUniqueElementTest {
 	

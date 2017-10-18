@@ -1,9 +1,6 @@
 package stringManipulation;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class FindUniqueElement {
 	
@@ -11,7 +8,6 @@ public class FindUniqueElement {
 	 * Find unique element in array where every element is duplicated except 1
 	 */
 
-	
 	public int uniqueElementSolutionOne(int[] arr) {
 		
 		
