@@ -97,7 +97,7 @@ public class FindUniqueElement {
 		for(Integer key : arr) {
 			
 			if(keySet.contains(key)) {
-				resultSet.remove(key); //remove key from result set if duplicate
+				resultSet.remove(key); //remove key from result set since it's a duplicate
 			}
 			else {
 				//add key to both sets if first time encountering this key
