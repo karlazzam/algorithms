@@ -7,11 +7,6 @@ import java.util.Set;
 
 public class PermutationCheck {
 	
-	public static void main(String[] args) {
-		
-		
-		isPermutation2("pqzhi", "ghrqpihzybre");
-	}
 
 	/**
 	 * Given two strings, write a method to decide if one is a permutation of the other.
@@ -52,7 +47,7 @@ public class PermutationCheck {
 	 * 
 	 *  Estimated worst case O(2*N) = O(N). Average case is O(2*N) = O(N)
 	 */
-	public static boolean isPermutation2(String s1, String s2) {
+	public  boolean isPermutation2(String s1, String s2) {
 		
 		if(s1.length() > s2.length()) {
 			return false;
