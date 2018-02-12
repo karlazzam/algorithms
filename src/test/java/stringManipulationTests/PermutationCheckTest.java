@@ -27,5 +27,14 @@ public class PermutationCheckTest {
 		/**
 		 * Check for all possible permutations of s1 into s2
 		 */
+		
+		assertEquals(false,permutationCheck.isPermutation2("abcaaaa", "fabca"));
+		assertEquals(true,permutationCheck.isPermutation2("abca", "fabca"));
+		assertEquals(true,permutationCheck.isPermutation2("ab", "eidbaooo"));
+		assertEquals(true,permutationCheck.isPermutation2("adc", "dcda"));
+		assertEquals(false,permutationCheck.isPermutation2("hello", "ooolleoooleh"));
+		assertEquals(true,permutationCheck.isPermutation2("pqzhi", "ghrqpihzybre"));
+
+
 	}
 }
