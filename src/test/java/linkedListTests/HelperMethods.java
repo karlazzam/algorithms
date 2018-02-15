@@ -1,8 +1,6 @@
 package linkedListTests;
 
-import java.util.Arrays;
 import java.util.List;
-
 import linkedList.ListNode;
 
 public class HelperMethods {

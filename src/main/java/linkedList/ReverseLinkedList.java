@@ -1,8 +1,6 @@
 package linkedList;
 
 public class ReverseLinkedList {
-
-	
 	/**
 	 * O(n) solution, traverse list iteratively and build a new list that is reversed
 	 */
