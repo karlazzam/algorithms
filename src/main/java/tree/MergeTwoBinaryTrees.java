@@ -19,7 +19,7 @@ public class MergeTwoBinaryTrees {
 		}
 		
 		if(t2 == null) {
-			return t2;
+			return t1;
 		}
 		
 		TreeNode mergeTree = new TreeNode(t1.val + t2.val);
