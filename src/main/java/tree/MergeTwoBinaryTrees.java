@@ -22,12 +22,12 @@ public class MergeTwoBinaryTrees {
 			return t1;
 		}
 		
-		TreeNode mergeTree = new TreeNode(t1.val + t2.val);
-	
-		mergeTree.left = mergeTrees(t1.left, t2.left);
-		mergeTree.right = mergeTrees(t1.right, t2.right);
+		//merge t2 into t1
+		t1.val += t2.val;
+		t1.left = mergeTrees(t1.left, t2.left);
+		t1.right = mergeTrees(t1.right, t2.right);
 		
-		return mergeTree;
+		return t1;
 	}
 
 }
